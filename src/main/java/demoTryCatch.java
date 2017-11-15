@@ -15,7 +15,7 @@ public class demoTryCatch {
             String value = jedis.get("heloword");
             System.out.println("连接redi获取heloword的key的值ֵ:"+value);
         }catch(Exception e){
-            logger.error(e.getMessage(),e);
+            System.out.println(e.getMessage());
         }finally{
             if(jedis != null){
                 jedis.close();
