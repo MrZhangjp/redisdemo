@@ -1,2 +1,2 @@
 # redisdemo
-自学redis
+新电脑自学redis就是爽！
